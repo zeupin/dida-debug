@@ -1,0 +1,23 @@
+{
+  "name": "dida/debug",
+  "description": "A tiny debugger.",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/zeupin/dida-debug",
+  "authors": [
+    {
+      "name": "Macc Liu",
+      "email": "maccliu@zeupin.com",
+      "homepage": "https://github.com/maccliu"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^5.4 || ^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dida\\Debug": "src/Debug"
+    }
+  }
+}
