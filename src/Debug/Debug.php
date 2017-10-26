@@ -39,9 +39,18 @@ class Debug
     /**
      * 导出变量
      */
-    public static function varDump($var)
+    public static function varDump()
     {
-        return self::formatVar($var);
+        $result = [];
+
+        $num = func_num_args();
+        for ($i = 0; $i < $num; $i++) {
+            $var = func_get_arg($i);
+            $no = $i + 1;
+            $result[] = "No.{$no} = " . self::formatVar($var);
+        }
+
+        return "\n" . implode("\n", $result) . "\n";
     }
 
 

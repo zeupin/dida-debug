@@ -2,7 +2,7 @@
 
 一个小巧的Debug，可以输出更易读的变量调试信息。
 
-* Apache-2.0开源协议。
+* MIT开源协议。
 * 对Array型变量可以输出漂亮的组对齐格式。
 * 对Array型变量的输出是用[...]，而不是用PHP内置的array(...)。
 
@@ -31,15 +31,15 @@ echo Debug::varDump($some_var);
 
 ### `public static function variable($var, $varname = null)`
 
-> 显示一个需要跟踪的变量
+> 显示一个需要跟踪的变量，和halt()类似，但是显示后，不会退出。
 
-### `public static function varDump($var)`
+### `public static function varDump($var1, $val2, ...)`
 
-> 导出变量
+> 导出变量。
 
 ### `public static function varExport($var, $varname = null)`
 
-> 输出或返回一个变量的字符串表示
+> 输出或返回一个变量的字符串表示。
 
 ## 关于
 
@@ -48,4 +48,4 @@ echo Debug::varDump($some_var);
 
 ## 版权
 
-Copyright (c) 2017 Zeupin LLC. Released under the [Apache 2.0 license](LICENSE).
+Copyright (c) 2017 Zeupin LLC. Released under the [MIT license](LICENSE).
