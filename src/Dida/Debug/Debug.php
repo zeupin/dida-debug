@@ -11,6 +11,9 @@ namespace Dida\Debug;
 
 class Debug
 {
+    const VERSION = '20171114';
+
+
     public static function halt($var, $varname = null)
     {
         self::variable($var, $varname);
