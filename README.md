@@ -1,9 +1,9 @@
-# dida-debug
+# Dida\Debug 组件
 
-一个小巧的Debug，可以输出更易读的变量调试信息。
+`Dida\Debug` 一个小巧的Debug，以更加清晰易读的方式，输出调试变量信息。它是 [宙品科技](http://zeupin.com) 开源的 [Dida框架](http://dida.zeupin.com) 的一个功能组件。
 
 * MIT开源协议。
-* 对Array型变量可以输出漂亮的组对齐格式。
+* 对Array型变量可以输出美观的组对齐格式。
 * 对Array型变量的输出是用[...]，而不是用PHP内置的array(...)。
 
 ## 使用
