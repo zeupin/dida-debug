@@ -52,4 +52,4 @@ echo Debug::varDump($some_var);
 
 源代码采用MIT授权协议。<br>Licensed under The MIT License.
 
-如需在项目中使用，必须保留源代码中的完整版权声明。<br>Redistributions of files MUST retain the above copyright notice.
+如需在您的项目中使用，必须保留本源代码中的完整版权声明。<br>Redistributions of files MUST retain the above copyright notice.
