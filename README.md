@@ -19,7 +19,7 @@ composer require dida/debug
 ```php
 use Dida\Debug\Debug;
 
-echo Debug::varDump($some_var);
+echo Debug::varDump($var1, $var2, ...);
 ```
 
 ## API
