@@ -48,7 +48,7 @@ echo Debug::varDump($var1, $var2, ...);
 
 ## 版权声明
 
-版权所有 (c) 2017 上海宙品信息科技有限公司。<br>Copyright (c) 2017 Zeupin LLC. <http://zeupin.com>
+版权所有 (c) 2017-2018 上海宙品信息科技有限公司。<br>Copyright (c) 2017-2018 Zeupin LLC. <http://zeupin.com>
 
 源代码采用MIT授权协议。<br>Licensed under The MIT License.
 
